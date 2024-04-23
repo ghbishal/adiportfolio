@@ -49,9 +49,9 @@ export const Footer = (): ReactElement => {
                 fill="none"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M32 7H16C10.477 7 6 11.477 6 17v16c0 5.523 4.477 10 10 10h16c5.523 0 10-4.477 10-10V17c0-5.523-4.477-10-10-10Zm6.5 26a6.52 6.52 0 0 1-6.5 6.5H16A6.52 6.52 0 0 1 9.5 33V17a6.52 6.52 0 0 1 6.5-6.5h16a6.52 6.52 0 0 1 6.5 6.5v16Zm-5-15.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM24 16a9 9 0 1 0 9 9 8.98 8.98 0 0 0-9-9Zm-5.5 9a5.5 5.5 0 1 0 11 0 5.5 5.5 0 0 0-11 0Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </Link>
@@ -62,9 +62,9 @@ export const Footer = (): ReactElement => {
                 height="49"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M10 7h28a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4V11a4 4 0 0 1 4-4Zm6 30a1 1 0 0 0 1-1V22a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3Zm-1.5-18a3 3 0 1 1 0-6 3 3 0 0 1 0 6ZM35 37a1 1 0 0 0 1-1v-9.2a6.2 6.2 0 0 0-5.44-6.28A6 6 0 0 0 25 23.2V22a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7.5a3 3 0 0 1 6 0V36a1 1 0 0 0 1 1h3Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </Link>
