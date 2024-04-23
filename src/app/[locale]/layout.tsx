@@ -1,12 +1,13 @@
 import '@/styles/globals.css';
-import { Inter } from 'next/font/google';
+import { Raleway } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import React, { ReactNode, Suspense } from 'react';
 import Loading from '@/app/[locale]/loading';
+import { Navbar } from '@/components/navbar';
 import { locales } from '@/i18n';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Raleway({ subsets: ['latin'] });
 
 type Props = {
   children: ReactNode;
@@ -35,7 +36,10 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
   return (
     <html lang={locale}>
       <body className={inter.className}>
-        <Suspense fallback={<Loading />}>{children}</Suspense>
+        <Suspense fallback={<Loading />}>
+          <Navbar />
+          {children}
+        </Suspense>
       </body>
     </html>
   );
