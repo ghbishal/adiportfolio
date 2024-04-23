@@ -5,11 +5,11 @@
 
   "PathnamesPage": {
     "title": "パス名",
-    "description": "<p>パス名も国際化されている。</p><p>デフォルトの言語である英語を使用している場合、このページのブラウザのアドレスバーに<code>/ja/パス名</code>と表示されます。</p><p>ロケールを日本語に変更すると、URLもそれに合わせてローカライズされます。(<code>/ja/パス名</code>).</p>"
+    "description": "<p>UI/UX Designer</p>"
   },
 
   "LocaleLayout": {
-    "title":"next-js-starter-ボイラープレート"
+    "title":"Adi"
   },
 
   "Navigation": {

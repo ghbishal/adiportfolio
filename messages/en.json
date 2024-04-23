@@ -5,11 +5,11 @@
 
   "PathnamesPage": {
     "title": "Pathnames",
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>"
+    "description": "<p>UI/UX Designer</p>"
   },
 
   "LocaleLayout": {
-    "title": "next-js-starter-Boilerplate"
+    "title": "Adi"
   },
 
   "Navigation": {
