@@ -6,7 +6,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'eslint:recommended',
     'plugin:tailwindcss/recommended',
-    'plugin:storybook/recommended',
   ],
   rules: {
     '@next/next/no-html-link-for-pages': 'off',

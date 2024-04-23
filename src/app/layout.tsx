@@ -1,11 +1,30 @@
-import { ReactNode } from 'react';
+import '@/styles/globals.css';
+import { Metadata } from 'next';
+import { Raleway } from 'next/font/google';
+import React, { ReactNode, Suspense } from 'react';
+import Loading from '@/app/loading';
+import { Navbar } from '@/components/navbar';
+
+const inter = Raleway({ subsets: ['latin'] });
 
 type Props = {
   children: ReactNode;
 };
 
-// Since we have a `not-found.tsx` page on the root, a layout file
-// is required, even if it's just passing children through.
+export const metadata: Metadata = {
+  title: 'Adi',
+  description: 'UI/UX Designer / Frontend Developer',
+};
+
 export default function RootLayout({ children }: Props) {
-  return children;
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <Suspense fallback={<Loading />}>
+          <Navbar />
+          {children}
+        </Suspense>
+      </body>
+    </html>
+  );
 }
