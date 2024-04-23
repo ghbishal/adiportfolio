@@ -1,4 +1,4 @@
-import { Education, Explore, Hero } from '@/features/home';
+import { Education, Experience, Explore, Hero } from '@/features/home';
 
 export default function HomePage() {
   return (
@@ -6,6 +6,7 @@ export default function HomePage() {
       <Hero />
       <Explore />
       <Education />
+      <Experience />
     </div>
   );
 }
